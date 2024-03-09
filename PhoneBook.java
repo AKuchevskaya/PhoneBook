@@ -1,8 +1,8 @@
 import java.util.*;
 
-public class Book {
+public class PhoneBook {
     private HashMap<String, TreeSet<String>> phoneBook;
-    public Book(){
+    public PhoneBook(){
         phoneBook = new HashMap<>();
     }
     public void addContact (String name, String phoneNumber) {
